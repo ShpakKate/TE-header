@@ -1,0 +1,8 @@
+<div class="buttons-wrapper">
+  <div *ngFor="let button of controlBtn">
+    <button class="button-item">
+      <img [src]="button.icon" [alt]="button.alt">
+      <span>{{ button.title }}</span>
+    </button>
+  </div>
+</div>

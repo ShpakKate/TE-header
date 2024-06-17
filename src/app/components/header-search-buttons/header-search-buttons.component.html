@@ -1,0 +1,7 @@
+<div class="buttons-wrapper">
+  <ng-container *ngFor="let button of searchBtn">
+    <button (click)="openWindow(button.alt)" class="button-item">
+      <img [src]="button.icon" [alt]="button.alt">
+    </button>
+  </ng-container>
+</div>

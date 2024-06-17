@@ -1,0 +1,22 @@
+.buttons-wrapper {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--white);
+  line-height: 56px;
+
+  .button-item {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: var(--white);
+  }
+
+  img {
+    cursor: pointer;
+  }
+}
